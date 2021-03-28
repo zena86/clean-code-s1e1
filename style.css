@@ -1,3 +1,8 @@
+.task-add {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
 /* Basic Style */
 body {
   background-color: #f8f8f8;
@@ -88,10 +93,14 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-label[for="new-task"] {
+/*label[for="new-task"] {
   display: block;
   margin: 0 0 20px;
+}*/
+.title {
+  margin: 0 0 20px; 
 }
+
 input#new-task {
   width: 318px;
 }
