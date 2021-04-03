@@ -133,7 +133,7 @@ button {
 }
 
 /* Completed */
-#completed-task .complete {
+.task-completed .complete {
   text-decoration: line-through;
   color: #888;
 }
