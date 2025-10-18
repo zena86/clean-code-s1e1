@@ -44,7 +44,7 @@ h3 {
   list-style: none;
 }
 input,
-button{
+button {
   outline: none;
 }
 .btn {
@@ -109,7 +109,7 @@ button{
   font-size: 18px;
   width: 226px;
 }
-.todo  >    .input-task {
+.todo > .input-task {
   width: 226px;
 }
 .todo__icon {
