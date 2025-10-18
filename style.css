@@ -16,7 +16,6 @@
 .hero__link {
   font-family: fantasy, cursive;
 }
-
 @media (max-width: 768px) {
   .hero {
     text-align: center;
@@ -85,18 +84,15 @@ button{
 .input-task:focus {
   color: #333;
 }
-
 /* New Task */
 .add__task {
   width: 318px;
 }
-
 /* Task list */
 .todo {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -104,7 +100,6 @@ button{
 .todo > * {
   vertical-align: middle;
 }
-
 .todo__checkbox {
   margin: 0 10px;
 }
@@ -125,23 +120,19 @@ button{
 .todo__icon:hover {
   transform: rotateZ(0);
 }
-
 /* Completed */
 #completed .todo__label {
   text-decoration: line-through;
   color: #888;
 }
-
 /* Edit Task */
 .todo .input-task {
   display: none;
 }
-
 .todo.editing .input-task {
   display: inline-block;
   width: 224px;
 }
-
 .todo.editing .todo__label {
   display: none;
 }
